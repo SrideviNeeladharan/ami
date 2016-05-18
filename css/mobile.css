@@ -51,10 +51,6 @@ section
   border: 2px solid white;
   width:100%;
   border-radius: 15px;
-  
-  background-image: url(../images/pic3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+
   
 }
