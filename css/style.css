@@ -8,6 +8,9 @@ html
 {
   width:80%;
   height: auto;
+  background-image: url(/images/bk.jpg);
+    background-repeat:no-repeat;
+  background-size: cover;
   /*margin: auto;
   display: block;*/
 }
