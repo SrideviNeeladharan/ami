@@ -1,165 +1,253 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
     <head>
-         <title></title>
+         <title>AMI AUTO SPA</title>
           <meta charset="utf-8">
           <meta http-equiv="x-ua-compatible" content="ie=edge">
           <meta name="description" content="">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          <link href="css/main.css" type="text/css" rel="stylesheet" media="screen and (min-width:701px) and (max-width:2048px)"/>
-          <link href="css/mobile.css" type="text/css" rel="stylesheet" media="screen and (min-width:1px) and (max-width:500px)"/>
-          <link href="css/tablet.css" type="text/css" rel="stylesheet" media="screen and (min-width:501px) and (max-width:700px)"/>
-          <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
-          <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script><!--GreenSock Animation Platform-->       <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-          <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-          <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-        <script src="http://maps.googleapis.com/maps/api/js"></script>
-
-          <meta property="og:title" content="UW Htlm5 200 :: Javascript" />
-          <meta property="og:description" content="[[*description]]" />
-          <meta property="og:url" content="[[++site_url]][[~[[*id]]]]" />
-          <meta property="og:image" content="[[*social_image]]" />
-
-          <!--   Twitter -->
-          <meta name="twitter:site" content="[[++site_url]][[~[[*id]]]]" />
-          <meta name="twitter:title" content="[[++site_name]] :: [[*pagetitle]]" />
-          <meta name="twitter:description" content="[[*description]]" />
-          <meta name="twitter:image" content="[[*social_image]]" />
-
-          <!-- NO CRAWING FROM SEARCH ENGINE ROBOTS FOR NOW!!! -->
-          <meta name="robots" content="noindex,nofollow" />
-
-          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-          <meta name="description" content="[[*description]]" />
-          <meta name="keywords" content="Artists in history, artist years " />
-
-          <link rel="icon" href="favicon.png" type="image/png" /> 
-      <link rel="stylesheet" href="css/style.css" type="text/css">
-
-  <!-- MOBILE STYLES -->
-  <!-- because we have a reponsive website, that means the users wont have to pinch and zoom, <br>
-  so lets disable this feature so our CSS takes care of it -->
-  <meta name="viewport" content="width=device-width, maximum-scale-1.0, minimum-scale=1.0, initial-scale=1.0" />
-
-
-    <!-- UNCOMMENT THIS SO WE CAN LINK TO THE JQUERY MOBILE FRAMEWORK -->
-  <link rel="stylesheet" href="assets/themes/my-custom-theme.min.css" />
-  <link rel="stylesheet" href="assets/themes/jquery.mobile.icons.min.css" />
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
-  
-  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-       <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://use.fontawesome.com/28925f8256.js"></script>
+<!-- Optional theme -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script src="http://maps.googleapis.com/maps/api/js"></script>
         <script src="script.js"></script>
-
-
-
     </head>
 
 
-      <div data-role="page"> 
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-              <h1>AMI Auto Spa</h1>
-                     <i class="fa fa-home fa-fw"></i>&nbsp; 
-
-
-      -
-
-        <div data-role="main" class="ui-content"> 
-          <section class="sec1">
-            <div id="h">
-            <h2>Give your vehicles a day at our Spa.</h2>
-              <h3>We will pamper it with a Five-Star Treatment. </h3>
-            </div>
-          </section>
-          
-          <section id="sec2">
-              <div class="ui-grid-b">
-                  <div class="ui-block-a">
-                    <h2>Featured Services</h2>
-                    <ul data-role="listview" class="side">
-                      <li><a href="#">HAND WASH</a></li>
-                      <li><a href="#">WASH & WAX</a></li>
-                      <li><a href="#">STEAM WASH</a></li>
-                      <li><a href="#">WATER SPOT REMOVAL</a></li>
-                      <li><a href="#">TYRE DRESSING</a></li>
-                      <li><a href="#">CHAIN LUBRICATION</a></li>
-                    </ul>
-                  </div>
-
-                   <div class="ui-block-b">
-                        <h2>Why AMI Auto Spa?</h2>
-                            <p>Washing your vehicle at home may be the best way if you have time and just need a little cleaning off the vehicles's surface. Full service washes provide special ingredients that clean dust, residues, and that offer rust prevention for your vehicle. In general, we recommend washing about twice a month and more frequently during the winter, with an application of a wax and under wash at least every other wash. This will add a protective shine to your vehicle's finish and keep it looking like new. We offer special window and glass waxes to protect your car from wear and tear as well as provide water resistance to rain especially in the front window areas. </p> 
-                    
-                </div>
-
-                  <div class="ui-block-c">
-                      <h2>Current & Upcoming Promotions</h2>
-                    <svg>                      
-                      <img src="images/pic5.jpg" alt="Riders dhamaka">
-                    </svg>
-                  </div>
+      
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+             
+                  <a class="navbar-brand" href="#myPage">
+                    <img id="logoimage" src="images/logo.jpg" alt="ami logo">
+                  </a>
               </div>
-          </section>
-          
-          <section id="sec3">
-            <h2>WHAT SETS US APART</h2>
-            
-            <p>We're passionate about what we do, and it shows in our quality of equipment and service.</p>
-            <br>
-            <br>
-
-            
-             <div class="pic">      
+              <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#about">ABOUT</a></li>
+                      <li><a href="#services">SERVICES</a></li>
+                      <li><a href="#appointments">APPOINTMENTS</a></li>
+                      <li><a href="#gallery">GALLERY</a></li>
+                      <li><a href="#contact">CONTACT</a></li>
+                      <li><a href="#location">LOCATION</a></li>
                       
-                        <img id="polaroids" class="p1" src="images/gal10.jpg" alt="bk"> <br>
-               <br>
-                       <img id="polaroids" class="p2" src="images/gal11.jpg" alt="dj2">
-         <!--      <img id="polaroids"  class="p3"src="images/gal12.jpg" alt="bk"> 
-                       <img id="polaroids" class="p4" src="images/gal13.jpg" alt="dj2">-->
-               
-            
-            </div>
-          </section>
-          <section id="sec4">
-            <h2>Schedule Appointments online</h2>
-          </section>
-          <section id="sec5">
-            <h2>Reviews</h2>
-            <strong>Worth every penny !! Ami the best !! Chk it out ppl !!</strong>
-            <h2>Tell us about your Experience</h2>
-            <form method="post" action="demoform.asp"  data-role="none">
-              <label for="fname">Enter your name below   </label>
-                <input type="text" id="inputId">
-           
-              <label>Let us know what you think.  </label>
-                <textarea rows="10"></textarea>
-            
-              <button type="submit" id="submitButton" value="Submit">Submit Review</button>
-            </form>
-          
-          </section>
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-          <footer>
-            <div data-role="footer">
-              <p>&copy;2016 AMI Car Spa. All rights reserved.</p>
-            </div>
-          </footer>
+                    </ul>
+              </div>
+          </div>
+      </nav>
+      
+      <div class="jumbotron text-center">
        
-
-
+        <p></p> 
+          
 
       </div>
+      
+<!--*************** ABOUT **********************-->
+      
+      
+      <div class="container-fluid" id="about">
+        <div  class="row">
+          <div class="col-sm-8">
+            <h2>AMI AUTO SPA</h2>
+            <h4></h4> 
+            <p class="pull right">AMI Auto Spa, locally owned and operated, was established in 2015 with a dream, a vision and a passion for the auto detailing & reconditioning industry. We pride ourselves on outstanding customer service and maintain the highest level of quality and dedication. Each vehicle is treated with utmost pride and integrity. We cater exclusively to the individual auto owner's needs, wants and desires. Our performance is reflected on each and every final product that we deliver.  </p><br>
+            <p>We pride ourselves on being a service-oriented company willing to tackle any project that comes our way. We excel in custom painting and custom airbrush work, design, graphics, flames, pin striping, murals, color matching, bodywork, and more.</p><br>
+            <p>Everything we do is designed to help you make the best impression possible. We use brilliant, top of the line products, along with premium materials, state-of-the-art technologies, and a host of imaginative ideas to create the kind of image you'll be proud to display.</p><br>
+             <p>We certainly enjoy detailing all types of vehicles, but when it comes to your toys, we are the premier shop in the area to take care of your investment.</p><br>
+            <p>If there is anything we can do to make this experience more enjoyable or anything that our company can change to help you in any way please let us know. Thank you for your interest in our company and we look forward to working with you.</p>
+          </div>
+         
+            <div class="col-sm-4">
 
+      <img src="/images/gal14.jpg"  id="aboutimage" class="img-circle img-responsive" alt="Cinque Terre" width="400px" height="400px">
+           
+          </div>
+   
+          </div>
+          
+
+        </div>
+       
+            
+      
+
+
+      
+<!--*************** SERVICES **********************-->
+      
+      
+      <div class="container-fluid text-center" id="services">
+          <h2>SERVICES</h2>
+          <h4>What we offer</h4>
+          <br>
+          <div class="row">
+            <div class="col-sm-4">
+              <span class="glyphicon glyphicon-flash logo-small"></span>
+              <h4>WASH TREATMENTS/DETAILING</h4>
+              <p>Full interior steam and cleaning, carpet, floor mat, seat belt, headliner, leather treatment, console, door panel, windows, exterior wash and hand wax.</p>
+            </div>
+            <div class="col-sm-4">
+              <span class="glyphicon glyphicon-heart logo-small"></span>
+              <h4>CUSTOM LIGHTS</h4>
+              <p>We install single or multi-color SMD, standard, or expandable LEDs and feature a variety of distinct lighting effects that will give your vehicle a custom, one of a kind look. </p>
+            </div>
+            <div class="col-sm-4">
+              <span class="glyphicon glyphicon-fire logo-small"></span>
+              <h4>FABRICATION</h4>
+              <p>We can install a very nice state-of-the-art hot match pop-up gas cap, aircraft style or a cool sport bike style in any gas tank. We can install any of these cool looking flush caps. You want your ride to be unique and stylin'? These gas caps are not like the cheap imports (that do break).</p>
+            </div>
+            </div>
+            <br><br>
+          <div class="row">
+            <div class="col-sm-4">
+              <span class="glyphicon glyphicon-leaf logo-small"></span>
+              <h4>CUSTOM TAIL LIGHTS</h4>
+              <p>Looking to customize your motorcycle tail lights? We create recessed LED tail lights to give your motorcycle a unique look. Custom painted design incorporating the tail lights will definitely add style and get your motorcycle noticed.</p>
+            </div>
+            <div class="col-sm-4">
+              <span class="glyphicon glyphicon-tint logo-small"></span>
+              <h4>CUSTOM PAINT JOBS</h4>
+              <p>We specialize in custom painting motorcycles, with any scheme and design you have in mind.  We can take any idea you have and create a unique look, that no one else has.  Our motorcycle custom paint designs range from Mild to Wild, with endless options and amazing detail. </p>
+            </div>
+            <div class="col-sm-4">
+              <span class="glyphicon glyphicon-wrench logo-small"></span>
+              <h4>REPAIR SERVICES</h4>
+              <p>If you damage your motorcycle, bicycle, car or truck, we are the place to come. In addition to a top notch skills in bodywork, paint and repair our crerw understands custom paint and exotic colors and product. If you have a custom paint job or a limited addition OEM paint, we can match and repair it. We can reverse engineer colors that can not be matched by camera or formula and we understand how to apply products to match a look and make a minor or major mishap disappear.</p>
+            </div>
+          </div>
+        </div>
+      
+      
+      
+<!--*************** APPOINTMENTS ********************-->
+     
+      <div class="container-fluid text-center" id="appointments">
+
+                <h3>Appointments</h3>
+                <p>Skip the lines and wait time. You can now book appointments online.</p>
+                <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
+          <a id="Setmore_button_iframe" style="float:none; margin-left:5em;" href="https://my.setmore.com/shortBookingPage/afb2e7d2-5657-45cd-ab89-f8763b52ff3f">
+          <img border="none" src="https://my.setmore.com/images/bookappt/SetMore-book-button.png" alt="Book an appointment with AMI  using SetMore" /></a>
+         
+      </div>
+      
+<!--*************** GALLERY **********************-->
+      
+      
+      
+       <div class="container-fluid text-center" id="gallery">
+            <div class="pic">      
+                      <h2>GALLERY</h2>
+              
+              <img class="polaroids"  src="images/bmw1.jpg" alt="bk">
+              <img class="polaroids" src="images/ducati1.jpg" alt="dj2"><br>
+              <img class="polaroids" src="images/gal11.jpg" alt="AMI photos">
+              <img class="polaroids" src="images/gal12.jpg" alt="AMI photos">
+              <img class="polaroids" src="images/gal9.jpg" alt="AMI photos"><br>
+              <img class="polaroids" src="images/gal10.jpg" alt="AMI photos">
+              <img class="polaroids" src="images/gal8.jpg" alt="AMI photos"><br>
+              <img class="polaroids" src="images/gal13.jpg" alt="AMI photos">
+              <img class="polaroids" src="images/gal20.jpg" alt="AMI photos">
+              <img class="polaroids" src="images/gal2.jpg" alt="AMI photos">
+              <img class="polaroids" src="images/gal16.jpg" alt="AMI photos">
+         </div>
+      </div>
+                    
+         
+         
+         
+
+         
+         
+        
+         
+
+         
+         
+<!--*************** CONTACT US ********************-->
+         
+         
+         
+         <div class="container-fluid text-center" id="contact">
+              <h2 class="text-center">CONTACT</h2>
+                <div class="row">
+                    <div class="col-sm-5">
+                      <p>Contact us and we'll get back to you within 24 hours.</p>
+                      
+                      <strong>273, Peranaidu Layout,<br>
+                      Crosscut Road,<br>
+                      Gandhipuram, Coimbatore,<br>
+                      Tamil Nadu 641009. </strong><br><br>
+                      <strong><span class="glyphicon glyphicon-phone"></span>+91 89400 12991<br>
+                        <span class="glyphicon glyphicon-envelope"></span>amiautospacbe@gmail.com</strong><br><br>
+                      
+                      <h4>Mon-Sat: 10:00 am - 9:00 pm</h4>
+                      <p>Sunday: Closed</p>
+                      <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
+          <a id="Setmore_button_iframe" style="float:none" href="https://my.setmore.com/shortBookingPage/afb2e7d2-5657-45cd-ab89-f8763b52ff3f">
+          <img border="none" src="https://my.setmore.com/images/bookappt/SetMore-book-button.png" alt="Book an appointment with AMI  using SetMore" /></a>
+
+                    </div>
+                    <div class="col-sm-7">
+                      <div class="row">
+                        <div class="col-sm-6 form-group">
+                          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                      </div>
+                      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                      <div class="row">
+                        <div class="col-sm-12 form-group">
+                          <button class="btn btn-default pull-right" type="submit">Send</button>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+           </div>
+
+
+    <!--*************** LOCATION/HOURS **********************-->  
+         
+         
+              <div class="container-fluid text-center" id="location">
+                <h2>Location</h2>
+                   
+                  <div class="container-fluid text-center" id="googleMap" style="height:500px;width:85%;"></div>
+                  <br>
+                  <br>
+                   <span>273, Peranaidu Layout,<br>
+                    Crosscut Road,<br>
+                    Gandhipuram, Coimbatore,<br>
+                    Tamil Nadu 641009.
+                  </span>           
+              </div>
+
+
+    <!--****************  FOOTER *****************************-->
+         
+         
+          <footer class="container-fluid text-center" id="footer">
+              <a href="#myPage" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+              </a>
+              <p>&copy; AMI Auto Spa, 2016</p>
+            <div class="navbar-text pull-right">  
+                <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                              <a href="#">
+                                <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>             
+            </div>
+          </footer>
+      </body>
   </html>
